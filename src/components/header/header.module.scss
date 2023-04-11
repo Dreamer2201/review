@@ -1,0 +1,17 @@
+@import '../styles/mixins';
+
+.header {
+    position: sticky; 
+    top: 0;
+    @include flex(center, center);
+    margin-bottom: 10px;
+    height: 60px;
+    border-bottom: 4mm ridge rgba(211, 220, 50, .6);
+    background-color: rgb(31, 132, 214);
+    color: #151515;
+
+    @media (min-width: 787) {
+        background-color: rgb(190, 84, 84);
+        color: #141111;
+    }
+}

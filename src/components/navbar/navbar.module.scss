@@ -1,0 +1,6 @@
+@import '../styles/mixins';
+
+.nav_list {
+    @include flex(center, center);
+    list-style: none;
+}
