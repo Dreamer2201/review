@@ -4,3 +4,11 @@
     @include flex(center, center);
     list-style: none;
 }
+.nav__link {
+    color: #e9e4e4;
+    text-decoration: none;
+    &.active {
+        color: yellow
+    }
+}
+
