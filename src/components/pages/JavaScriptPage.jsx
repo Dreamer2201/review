@@ -19,7 +19,15 @@ export default function JavaScriptPage() {
 //  }
 //  console.log(anagrama ("123456", "123456" ))
 
-
+// const removeDuplicates = str => {
+//   const unique = new Set(str)
+//   console.log(unique)
+//   const arr = Array.from(unique)
+//   console.log(arr)
+//   const newStr = arr.join('')
+//   return newStr
+// }
+// console.log(removeDuplicates('Oksana'))
 
   return (
     <div>
